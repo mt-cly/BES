@@ -28,13 +28,10 @@ python run_sample.py --voc12_root xxxxx
 * The generated pseudo semantic segmentation labels will used to be provide supervision for DeepLab_v1 and DeepLab_v2. There are many considerable implementation in the github, for example: [DeepLab-v1](https://github.com/wangleihitcs/DeepLab-V1-PyTorch), [DeepLab-v2](https://github.com/kazuto1011/deeplab-pytorch), and so on.
 
 * In previous experiments, the original seed is not set and may cause some bias between reproduction and paper report. Here I report the BES performance in the PASCAL VOC 2012 training set with different seeds.
-|seed|report in paper|0|1|2|3|4|5|6|7|8|9|
-|---|---|---|---|---|---|---|---|---|---|---|---|
-|mIoU (w\o dCRF)|66.4|66.2|66.5|66.2|66.4|66.4|67.9|66.0|66.7|65.7|66.6|
+| seed | report in paper | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| mIoU (w\o dCRF) | 66.4 | 66.2 | 66.5 | 66.2 | 66.4 | 66.4 | 67.9 | 66.0 | 66.7 | 65.7 | 66.6 |
 
-| ddd | sss |
-| --- | --- |
-| d | s  |
 
 * This paper is inspired by the PSA[^1] and IRN[^2]. In my view, the boundary is implicitly explored  through the prediction of  pixels-affinity, BES can be regarded as another implementation.
 
