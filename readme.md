@@ -12,7 +12,7 @@ This code heavily depends on the [IRN](https://github.com/jiwoon-ahn/irn).
 ```python
  pip install -r requirement.txt
 ```
-For pytorch, installation command can be easily found with specified setting on [official website](https://pytorch.org/get-started/locally/).
+For pytorch, installation command can be easily found with specified setting on [official website](https://pytorch.org/get-started/locally/).Here we use pytorch 1.8.
 
 #### Run the code
 Specify the VOC dataset path and run the command
