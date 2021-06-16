@@ -34,6 +34,21 @@ python run_sample.py --voc12_root xxxxx
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | mIoU (w\o dCRF) | 66.4 | 66.2 | 66.5 | 66.2 | 66.4 | 66.4 | 67.9 | 66.0 | 66.7 | 65.7 | 66.6 |
 </div>
+<div align="center">
+<table>
+    <thead><tr>
+        <th>seed</th>
+        <th>report in paper</th>
+        <th>0</th>
+      </tr>
+    </thead>
+      <tbody><tr>
+        <td> mIoU (w\o dCRF)</td>
+        <td>66.4</td>
+        <td>66.2</td>
+      </tr></tbody>
+  </table>
+</div>
 
 
 
