@@ -171,8 +171,8 @@ def crf_inference_label(img, labels, t=10, sxy=50, n_labels=21, gt_prob=0.7):
 
 
 def get_strided_size(orig_size, stride):
-    return ((orig_size[0]-1)//stride+1, (orig_size[1]-1)//stride+1)
-
+    # return ((orig_size[0]-1)//stride+1, (orig_size[1]-1)//stride+1)
+    return (torch.div(orig_size[0]-1, stride, rounding_mode='trunc')+1, torch.div(orig_size[1]-1, stride, rounding_mode='trunc')+1)
 
 def get_strided_up_size(orig_size, stride):
     strided_size = get_strided_size(orig_size, stride)
