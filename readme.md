@@ -37,15 +37,13 @@ python run_sample.py --voc12_root xxxxx
 <div align="center">
 <table>
     <thead><tr>
-        <th>seed</th>
-        <th>report in paper</th>
-        <th>0</th>
+        <th>seed</th> <th>report in paper</th>
+        <th>0</th> <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th> <th>7</th> <th>8</th> <th>9</th>
       </tr>
     </thead>
       <tbody><tr>
-        <td> mIoU (w\o dCRF)</td>
-        <td>66.4</td>
-        <td>66.2</td>
+        <td> mIoU (w\o dCRF)</td> <td>66.4</td>
+        <td>66.2</td> <td>66.5</td> <td>66.2</td> <td>66.4</td> <td>67.9</td> <td>66.0</td> <td>66.7</td> <td>65.7</td> <td>66.6</td>
       </tr></tbody>
   </table>
 </div>
