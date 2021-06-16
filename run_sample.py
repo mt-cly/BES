@@ -83,9 +83,9 @@ if __name__ == '__main__':
     parser.add_argument("--sem_seg_out_dir", default="result/sem_seg", type=str)
 
     # Step
-    parser.add_argument("--train_cam_pass", default=False)
-    parser.add_argument("--make_cam_pass", default=False)
-    parser.add_argument("--eval_cam_pass", default=False)
+    parser.add_argument("--train_cam_pass", default=True)
+    parser.add_argument("--make_cam_pass", default=True)
+    parser.add_argument("--eval_cam_pass", default=True)
     parser.add_argument("--make_boundary_label_pass", default=True)
     parser.add_argument("--train_bes_pass", default=True)
     parser.add_argument("--make_sem_seg_pass", default=True)
