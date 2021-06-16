@@ -30,11 +30,6 @@ python run_sample.py --voc12_root xxxxx
 * In previous experiments, the original seed is not set and may cause some bias between reproduction and paper report. Here I report the BES performance in the PASCAL VOC 2012 training set with different seeds.
 
 <div align="center">
-| seed | report in paper | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| mIoU (w\o dCRF) | 66.4 | 66.2 | 66.5 | 66.2 | 66.4 | 66.4 | 67.9 | 66.0 | 66.7 | 65.7 | 66.6 |
-</div>
-<div align="center">
 <table>
     <thead><tr>
         <th>seed</th> <th>report in paper</th>
@@ -43,12 +38,10 @@ python run_sample.py --voc12_root xxxxx
     </thead>
       <tbody><tr>
         <td> mIoU (w\o dCRF)</td> <td>66.4</td>
-        <td>66.2</td> <td>66.5</td> <td>66.2</td> <td>66.4</td> <td>67.9</td> <td>66.0</td> <td>66.7</td> <td>65.7</td> <td>66.6</td>
+        <td>66.2</td> <td>66.5</td> <td>66.2</td> <td>66.4</td> <td>66.4</td> <td>67.9</td> <td>66.0</td> <td>66.7</td> <td>65.7</td> <td>66.6</td>
       </tr></tbody>
   </table>
 </div>
-
-
 
 * This paper is inspired by the PSA[^1] and IRN[^2]. In my view, the boundary is implicitly explored  through the prediction of  pixels-affinity, BES can be regarded as another implementation.
 
