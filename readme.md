@@ -45,6 +45,7 @@ python run_sample.py --voc12_root xxxxx
 
 * This paper is inspired by the PSA<a href="#reference_1">[1]</a> and IRN<a href="#reference_2">[2]</a>. In my view, the boundary is implicitly explored  through the prediction of  pixels-affinity, BES can be regarded as another implementation.
 
+## References
 <a id="reference_1">[1]</a>: Ahn J, Kwak S. Learning pixel-level semantic affinity with image-level supervision for weakly supervised semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018: 4981-4990.
 
 <a id="reference_2">[2]</a>: Ahn J, Cho S, Kwak S. Weakly supervised learning of instance segmentation with inter-pixel relations[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019: 2209-2218.
