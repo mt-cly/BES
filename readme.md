@@ -33,6 +33,11 @@ python run_sample.py --voc12_root xxxxx
 | mIoU (w\o dCRF) | 66.4 | 66.2 | 66.5 | 66.2 | 66.4 | 66.4 | 67.9 | 66.0 | 66.7 | 65.7 | 66.6 |
 
 
+| seed | report in paper | 0 |
+| --- | --- | --- |
+| mIoU (w\o dCRF) | 66.4 | 66.2 |
+
+
 * This paper is inspired by the PSA[^1] and IRN[^2]. In my view, the boundary is implicitly explored  through the prediction of  pixels-affinity, BES can be regarded as another implementation.
 
 [^1]:Ahn J, Kwak S. Learning pixel-level semantic affinity with image-level supervision for weakly supervised semantic segmentation[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018: 4981-4990.
