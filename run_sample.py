@@ -20,7 +20,7 @@ def fix_seed(seed=0):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--seed", default=7, type=int)
+    parser.add_argument("--seed", default=5, type=int)
 
     # Environment
     parser.add_argument("--num_workers", default=os.cpu_count() // 2, type=int)
