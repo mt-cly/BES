@@ -8,6 +8,7 @@ This code heavily depends on the [IRN](https://github.com/jiwoon-ahn/irn).
 #### Preparation
 * Dataset: [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) & [SBD](http://home.bharathh.info/pubs/codes/SBD/download.html)
 * Python: 3.6
+* Others:python3.6-dev, etc
 #### Install python packages
 ```python
  pip install -r requirement.txt
