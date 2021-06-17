@@ -50,3 +50,6 @@ python run_sample.py --voc12_root xxxxx
 
 <a id="reference_2">[2]</a>: Ahn J, Cho S, Kwak S. Weakly supervised learning of instance segmentation with inter-pixel relations[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019: 2209-2218.
 
+## PS
+If there is any bug or confusion, I am glad to discuss with you. Sorry for my delayed release, I have spent a long time in TOEFL test and PhD application (I get failed and look forward a RA position).  
+
